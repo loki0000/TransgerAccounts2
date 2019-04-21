@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+#box{
+    width: 1000px;
+    height: 100px;
+    margin:0px auto;
+    text-align: center;
+    background-color: lightseagreen;
+}
+table{
+    border: 1px double white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+}
+#pay {
+    width: 300px;
+    height: 200px;
+    background-color: cornflowerblue;
+    position: absolute;
+    left:50%;
+    margin-left: -150px;
+    top: 200px;
+    display: none;
+    z-index: 5;
+
+}
+#pay img{
+    float: right;
+    height: 20px;
+    width: 20px;
+}
+#popub{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+    opacity: 0.6;
+    display: none;
+    z-index: 2;
+}
